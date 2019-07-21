@@ -192,7 +192,7 @@ nav ul {
   justify-content: center;
 }
 #choose iframe {
-  margin-top: 100px;
+  
   max-width: 960px;
   height: 340px;
   width: 100%;
@@ -203,7 +203,7 @@ nav ul {
   flex-direction: row;
   justify-content: center;
 }
-#bikes #tenor, #bikes #bass, #bikes #valve {
+#bikes #categories, #bikes #bass, #bikes #valve {
   
   display: flex;
   flex-direction: column;
@@ -214,7 +214,7 @@ nav ul {
   border: 1px solid #000;
   border-radius: 3px;
 }
-#bikes #tenor .level, #bikes #bass .level, #bikes #valve .level {
+#bikes #categories .level, #bikes #bass .level, #bikes #valve .level {
   
   background-color: #ddd;
   color: black;
@@ -224,22 +224,22 @@ nav ul {
   text-transform: uppercase;
   font-weight: 700;
 }
-#bikes #tenor h2, #bikes #bass h2, #bikes #valve h2 {
+#bikes #categories h2, #bikes #bass h2, #bikes #valve h2 {
   margin-top: 15px;
 }
-#bikes #tenor ol, #bikes #bass ol, #bikes #valve ol {
+#bikes #categories ol, #bikes #bass ol, #bikes #valve ol {
   margin: 15px 0;
 }
-#bikes #tenor ol li, #bikes #bass ol li, #bikes #valve ol li {
+#bikes #categories ol li, #bikes #bass ol li, #bikes #valve ol li {
   padding: 5px 0;
 }
-#bikes #tenor button, #bikes #bass button, #bikes #valve button {
+#bikes #categories button, #bikes #bass button, #bikes #valve button {
   border: 0;
   margin: 15px 0;
   background-color: #f1c40f;
   font-weight: 400;
 }
-#bikes #tenor button:hover, #bikes #bass button:hover, #bikes #valve button:hover {
+#bikes #categories button:hover, #bikes #bass button:hover, #bikes #valve button:hover {
   background-color: orange;
   transition: background-color 1s;
 }
@@ -247,7 +247,7 @@ nav ul {
   #bikes {
     flex-direction: column;
   }
-  #bikes #tenor, #bikes #bass, #bikes #valve {
+  #bikes #categories, #bikes #bass, #bikes #valve {
     max-width: 300px;
     width: 100%;
     margin: 0 auto;
